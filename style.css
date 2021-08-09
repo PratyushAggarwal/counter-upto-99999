@@ -1,0 +1,97 @@
+body{
+	background-color: lightblue;
+}
+
+#top{
+	width: 85%;
+	margin-left: 5%;
+	margin-top: 5%;
+	padding: 50px;
+	background-image: linear-gradient(to right,cyan -60%,pink);
+}
+
+
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 23px;
+	word-spacing: 20px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	margin-bottom: 5%;
+}
+input{
+	margin-left: 10%;
+	height: 30px;
+	width: 350px;
+}
+
+button{
+	box-sizing: border-box;
+	height: 36px;
+	font-size: 1.2rem;
+	color: black;
+	font-weight: 700;
+	background-color: lightgrey;
+	border-radius: 18px;
+	margin-left: 40%;
+	box-shadow: 0px 0px 1px 3px white;
+	transition: ease-in-out 0.4s;
+}
+
+
+#bottom{
+	overflow: hidden;
+	margin: 100px;
+	width: 70%;
+	margin-left: 13%;
+	background-color: grey;
+	padding: 50px;
+	height: 90px;
+	align-content: center;
+}
+
+.box{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+	background-color: black;
+}
+#box1{
+	margin-left: 14%;
+}
+#box2{
+	margin-left: 22%;
+}
+#box3{
+	margin-left:30%;
+}
+#box4{
+	margin-left: 38%;
+}
+#box5{
+	margin-left: 46%;
+}
+
+p{
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 80px;
+	height: 100%;
+	margin:0px;
+	width: 100%;
+	background-color: white;
+	border-top: 2px solid black;
+	margin:auto;
+}
+.next{
+	position: absolute;
+	top:80px;
+}
+
+p.animate{
+	transition: all 0.5s;
+	top:0px;
+}
